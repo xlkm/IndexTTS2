@@ -190,10 +190,11 @@ python scripts/video_dubbing/dubbing_for_video.py \
 
 ## 📝 重要文档
 
-- [用户目标和使用场景](docs/用户目标和使用场景.md) - 项目目标和业务场景
-- [环境检查报告](docs/环境检查报告.md) - 当前环境状态
-- [Mac M2 环境配置指南](docs/Mac_M2环境配置指南.md) - Apple Silicon 适配
+- [文档索引](docs/README.md) - 完整文档目录 ⭐
 - [快速开始指南](快速开始.md) - 快速上手指南
+- [环境配置完整指南](docs/环境配置/环境配置完整指南.md) - Mac M2 环境配置 ⭐
+- [用户目标和使用场景](docs/用户目标和使用场景.md) - 项目目标和业务场景
+- [Mac M2 环境配置指南](docs/Mac_M2环境配置指南.md) - Apple Silicon 适配
 - [项目结构说明](docs/项目结构说明.md) - 详细结构说明
 
 ## 🔧 配置说明
@@ -207,8 +208,9 @@ python scripts/video_dubbing/dubbing_for_video.py \
 
 遇到问题？查看：
 - [问题排查文档](docs/learning/07-问题排查/README.md)
+- [环境配置完整指南](docs/环境配置/环境配置完整指南.md) - 包含常见问题
+- [环境问题跟踪](docs/环境配置/环境问题跟踪.md) - 已解决和待解决的问题
 - [Mac M2 环境配置指南](docs/Mac_M2环境配置指南.md)
-- [环境检查报告](docs/环境检查报告.md)
 
 ## 📊 业务价值
 
