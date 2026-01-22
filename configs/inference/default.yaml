@@ -1,0 +1,22 @@
+# IndexTTS2 推理配置文件
+
+# 模型配置
+model:
+  checkpoint_path: "checkpoints/pretrained/model.pth"
+  config_path: "configs/train/default.yaml"
+
+# 推理配置
+inference:
+  batch_size: 1
+  device: "cuda"  # 或 "cpu"
+  
+  # 音频输出配置
+  output:
+    sample_rate: 22050
+    format: "wav"
+    output_dir: "outputs/audio"
+
+# 后处理配置
+postprocess:
+  normalize: true
+  trim_silence: true

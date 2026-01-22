@@ -1,0 +1,52 @@
+# 情绪模板配置
+# 用于快速应用不同的情绪设置
+
+emotions:
+  neutral:
+    name: "中性"
+    description: "自然、平稳的语调"
+    speed: 1.0
+    pitch: 0.0
+    energy: 0.5
+    
+  happy:
+    name: "开心"
+    description: "轻快、愉悦的语调"
+    speed: 1.1
+    pitch: 2.0
+    energy: 0.8
+    
+  excited:
+    name: "兴奋"
+    description: "快速、高亢的语调"
+    speed: 1.2
+    pitch: 3.0
+    energy: 0.9
+    
+  calm:
+    name: "平静"
+    description: "缓慢、沉稳的语调"
+    speed: 0.9
+    pitch: -1.0
+    energy: 0.4
+    
+  professional:
+    name: "专业"
+    description: "正式、清晰的语调"
+    speed: 1.0
+    pitch: 0.5
+    energy: 0.6
+    
+  friendly:
+    name: "友好"
+    description: "亲切、温暖的语调"
+    speed: 1.05
+    pitch: 1.0
+    energy: 0.7
+
+# 剪映导出配置
+export:
+  format: "wav"  # 或 "mp3"
+  sample_rate: 44100  # 剪映推荐: 44100 或 48000
+  channels: 1  # 单声道或 2 立体声
+  bit_depth: 16  # 16-bit 或 24-bit
